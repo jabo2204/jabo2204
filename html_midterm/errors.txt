@@ -1,0 +1,50 @@
+Errors 1
+1. Missing <!DOCTYPE HTML> declaration at the top of the page. Fixed it by adding one
+2. Language descriptor should be inside of the original html element and not in a new one. Fixed this by deleting html element and
+    putting the descriptor inside the original element. Language descriptor is also written as'language="en"'. 
+    Fixed this by making it 'lang="en"'
+3. Missing a meta element inside the head describing the charset. Fixed this by adding <meta charset="UTF-8"> inside the head
+4. <head> element has no closing tag. Fixed this by adding one after the title element
+5. <h1> element has no closing tag. Fixed this by adding one
+6. <p> element has no opening tag. Fixed this by adding one
+7. The 6th list item has a closing tag for an opening tag. Fixed this by making it an opening tag
+8. Closing tag of ordered list element is one of an unordered list. Fixed this by making it appropriate tag
+9. <p> element has no closing tag. Fixed this by adding one.
+10. Image element is missing alt text. Fixed this by giving it some alt text.
+11. Closing tag of anchor element is that of an image element (Which are self closing). Fixed this by making it appropriate tag
+12. Table data element for 25 has opening tag for a closing tag. Fixed this by making it appropriate tag
+13. Table element is missing a closing tag. Fixed this by adding one
+14. Source descriptor of image element is written as 'source="error.jpg". Fixed this by making it 'src="error.jpg"'
+15. Paragraph isn't enclosed in a paragraph element. Fixed this by enclosing it in one
+16. Paragraph claims to be strikethrough text but isn't enclosed by strikethrough element. Fixed this by addding one
+17. Uses bgcolor descriptor for background color of paragraph element which isn't support. Fixed this by setting background color
+    with style element.
+18. Input element is missing '/' at the end of its tag. Fixed this by adding it
+19. Comment is missing a closing tag. Fixed this by adding one
+20. Anchor element is missing a closing tag. Fixed this by adding one
+21. Emphasis element has its closing tag after the paragraph element's closing tag when it was initially nested inside the paragraph element.
+    Fixed this by putting the closing tag of the emphasis element before that of the paragraph element.
+22. Paragraph text claims to be underlined but isn't enclosed in an underline element. Fixed by enclosing it in underlined element
+23. Descriptive item title is enclosed in the tags of a list element when is should be in those of a description title element.
+    Fixed this by making the tags of this element appropriate
+24. Descriptive item title is also enclosed in the tags of a list element when it should be in those of a description element.
+    Fixed this by making the tags of this element appropriate.
+25. Closing tag of the <h2> element is the opening tag of an <h3> element. Fixed this by making the tag a closing <h2> tag.
+
+Errors 2
+1. Doesn't have opening html tag before the head element. Fixed this by removing the html tag inside the body and adding one before the head.
+2. html element is missing language descriptor. Fixed this by adding one of lang="en".
+3. Puts h1 element inside the head when it should be in the body. Fixed this by removing it from the head and putting it in the body.
+4. Head element is missing a closing tag. Fixed this by adding it. Head element is also missing a meta element of charset="UTF-8".
+    Fixed this by adding it.
+5. Opening body tag is missing an ending '>'. Fixed this by adding it
+6. Div element is missing a closing tag. Fixed this by adding one after the paragraph element.
+7. Paragraph element doesn't have a closing tag. Fixed this by adding one at the end of the paragraph.
+8. Strong element doesn't have a closing tag. Fixed this by adding one at the end of the text.
+9. Image element has an href descriptor when it should have a src descriptor. Fixed this by making it appropriate.
+10. Image element is missing alt text. Fixed this by adding alt text of alt="image 2".
+11. <h2> element is missing an opening tag. Fixed this by adding one.
+12. Paragraph element is missing an opening tag. Fixed this by adding one.
+13. Comment isn't enclosed in the appropriate tags. Fixed it by placing it in those of <!-- -->
+14. Body element is missing a closing tag. Fixed this by adding one after the comment.
+15. Closing html tag is mispelled as "htm". Fixed this by making it "html"
