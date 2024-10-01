@@ -11,9 +11,9 @@ html {
 body {
   margin: 0;
   background: #ccc;
-  background-image: url("top-image.png"), linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(255 255 255), rgba(255 255 255), rgba(255 255 255), rgba(0, 0, 0, 0.05)), url("bottom-image.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(255 255 255), rgba(255 255 255), rgba(255 255 255), rgba(0, 0, 0, 0.05)), url("top-image.png"), url("bottom-image.png");
   background-repeat: no-repeat;
-  background-position: top, center, bottom;
+  background-position: center, top, bottom;
   border-top: 1mm solid red;
   border-bottom: 1mm solid red;
 }
