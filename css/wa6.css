@@ -17,7 +17,7 @@ div {
 .grid-container {
     display: grid;
     grid-template-columns:  35% 15% 15% 35%;
-    grid-template-rows: 50vh;
+    grid-template-rows: 70vh;
 }
 
 .item1 {
@@ -72,11 +72,10 @@ div {
 }
 
 .channel {
-    position: fixed;
-    margin-left: 84%;
-    margin-top: 1%;
-    width: 8rem;
-    height: 7rem;
+    margin-left: 190vh;
+    margin-top: 5vh;
+    width: 10rem;
+    height: 9rem;
     background-image: radial-gradient(rgb(236, 209, 113), rgb(161, 107, 19));
     border-radius: 100%;
     border-width: 0.4rem;
