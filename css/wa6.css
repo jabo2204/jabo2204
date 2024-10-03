@@ -1,0 +1,85 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-image: url(/img/US\ Olympic\ Basketball.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  35% 15% 15% 35%;
+    grid-template-rows: 50vh;
+}
+
+.item1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: red;
+    height: 4rem;
+    align-self: center;
+    font-size: 3rem;
+    border-left: rgb(104, 12, 12) solid 0.5rem;
+    border-top: solid 0.3rem rgb(195, 16, 16);
+    border-bottom: solid 0.3rem rgb(195, 16, 16);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(66, 12, 12);
+}
+
+.item2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(195, 16, 16);
+    height: 4rem;
+    font-size: 2.5rem;
+    border-top: solid 0.3rem rgb(143, 12, 12);
+    border-bottom: solid 0.3rem rgb(143, 12, 12);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(66, 12, 12);
+}
+
+.item3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(137, 136, 136);
+    height: 4rem;
+    font-size: 2.5rem;
+    border-top: solid 0.3rem rgb(83, 81, 81);
+    border-bottom: solid 0.3rem rgb(83, 81, 81);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(66, 12, 12);
+}
+
+.item4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 4;
+    grid-row: 2;
+    background-color: lightgray;
+    height: 4rem;
+    font-size: 3rem;
+    border-right: rgb(180, 174, 174) solid 0.5rem;
+    border-top: solid 0.3rem rgb(137, 136, 136);
+    border-bottom: solid 0.3rem rgb(137, 136, 136);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(66, 12, 12);
+}
+
+.channel {
+    position: fixed;
+    margin-left: 84%;
+    margin-top: 1%;
+    width: 8rem;
+    height: 7rem;
+    background-image: radial-gradient(rgb(236, 209, 113), rgb(161, 107, 19));
+    border-radius: 100%;
+    border-width: 0.4rem;
+    border-style: dotted;
+    border-color: rgb(172, 119, 32);
+}
