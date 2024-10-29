@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Interactive Elements</title>
+    </head>
+    <body>
+        <img src="/img/smiley emoji.png" id="face" width="200 px">
+        <h1 id="grass" style="color: green">Grass is green</h1>
+
+        <script>
+            const face = document.getElementById("face");
+            const grass = document.getElementById("grass");
+
+            let isHappy = true;
+            let isGreen = true;
+
+            face.addEventListener("click", function() {
+            if (isHappy) {
+                face.src = "/img/sad emoji.png";
+            } else {
+                face.src = "/img/smiley emoji.png";
+            }
+                isHappy = !isHappy;
+            });
+
+            grass.addEventListener("click", function() {
+                if (isGreen) {
+                    grass.style = "color: #C19A6B";
+                    grass.innerHTML = "Grass is dead"
+                } else {
+                    grass.style = "color: green";
+                    grass.innerHTML = "Grass is green"
+                }
+                isGreen = !isGreen;
+            });
+        </script>
+    </body>
+</html>
