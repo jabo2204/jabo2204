@@ -1,0 +1,30 @@
+body {
+    background-color: #EFE2BA;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+    background-color: white;
+    box-shadow: -10px 10px 10px rgb(0 0 0 / 0.3);
+    /* border-width: 2px;
+    border: solid #a7a086; */
+    margin: 2% 10%;
+    padding: 10vh 10vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+button {
+    background-color: rgb(0 0 0 / 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    border: solid rgb(0 0 0 / 0.3);
+    border-width: 1px;
+}
+
+#comic {
+    max-width: 90%;
+}
